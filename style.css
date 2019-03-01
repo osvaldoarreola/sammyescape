@@ -54,4 +54,10 @@ p {
   font-size: 22px;
   color: black;
 }
-
+img:hover {
+	cursor: default;
+	transform:scale(1.05, 1.05);
+}
+img:active {
+	transform: scale(0.95, 0.95);
+}

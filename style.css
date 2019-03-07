@@ -61,3 +61,6 @@ img:hover {
 img:active {
 	transform: scale(0.95, 0.95);
 }
+.opaque {
+	opacity: 0.2;
+}

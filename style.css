@@ -11,6 +11,10 @@ body {
 	width: 100%;
 	background-color: #0066cc;
 }
+
+.display{
+	display: none;
+}
 .green {
 	background-color: #003300;
 	height: 100%;

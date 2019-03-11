@@ -126,7 +126,8 @@ function checkConfiguration(el){
 		b.classList.add("opaque");
 		c.classList.add("opaque");
 		d.classList.add("opaque");
-		el.src = "image/ballz.png";
+		document.getElementById("clyde").classList.add("display");
+		document.getElementById("ball").classList.remove("display");
 		console.log("YOU WIN!");
 	} else {
 		

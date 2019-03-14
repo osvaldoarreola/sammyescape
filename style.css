@@ -58,13 +58,16 @@ p {
   font-size: 22px;
   color: black;
 }
+/*when you go over images they pop up giving a 3rd effect*/
 img:hover {
 	cursor: default;
 	transform:scale(1.05, 1.05);
 }
+/*makes the images I have click able but does not give it a function just makes it pop up and down*/
 img:active {
-	transform: scale(0.95, 0.95);
+	transform: scale(0.95, 0.95); 
 }
+/*makes set images fade after a set order is done connected to java*/
 .opaque {
 	opacity: 0.2;
 }

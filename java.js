@@ -1,9 +1,9 @@
-a = document.getElementById("tan");
+a = document.getElementById("tan"); //this tells the program to call to a specific attribute it gives it a name it tags it.  
 b = document.getElementById("kyl");
 c = document.getElementById("car");
 d = document.getElementById("ken");
 
-function secondImage(el){
+function secondImage(el){ //this tells the program where to stat with an image called by name then when it is clicked it switches in order it is a list that goes in order.   
 	if (el.src.match("image/butter.png")){
 		el.src = "image/kenny.png";
 	} else if (el.src.match("image/kenny.png")){
@@ -16,7 +16,7 @@ function secondImage(el){
 	}
 }
 
-function thirdImage(el){
+function thirdImage(el){ 
 	if (el.src.match("image/token.png")){
 		el.src = "image/kenny.png";
 	} else if (el.src.match("image/kenny.png")){
@@ -119,7 +119,7 @@ function nineImage(el){
 	} else {
 	}
 }
-
+//wh3en the images match the old images place and all are in correct oder then they will fade away and switch one image to another image  
 function checkConfiguration(el){
 	if(a.src.match("image/stan.png") && b.src.match("image/kyle.png") && c.src.match("image/cartman.png") && d.src.match("image/kenny.png")){
 		a.classList.add("opaque");
@@ -128,7 +128,6 @@ function checkConfiguration(el){
 		d.classList.add("opaque");
 		document.getElementById("clyde").classList.add("display");
 		document.getElementById("ball").classList.remove("display");
-		console.log("YOU WIN!");
 	} else {
 		
 	}
